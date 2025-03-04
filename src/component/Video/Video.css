@@ -1,0 +1,32 @@
+.video-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.video-content{
+    display: flex;
+    justify-content: space-between;
+}
+.video-content p{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+}
+.video-box{
+    width: 100%;
+    position: relative;
+}
+div.video-box::before{
+    content: '';
+    position: absolute;
+    background-image: url(/src/assets/Video/play.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 38%;
+    left: 44%;
+    width: 130px;
+    height: 130px;
+}

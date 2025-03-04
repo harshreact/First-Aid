@@ -3,6 +3,7 @@ import './App.css'
 import Header from './component/Header/Header'
 import Hero from './component/Hero/Hero'
 import Intro from './component/Intro/Intro'
+import Video from './component/Video/Video'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Intro />
+      <Video />
     </div>
   )
 }

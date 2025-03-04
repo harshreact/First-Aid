@@ -5,7 +5,7 @@ import Rimg from '../../assets/Intro/intro-right.png'
 
 const Intro = () => {
   return (
-    <section className='intro'>
+    <section className='intro peach-bg'>
         <div className='container'>
             <div className='intro-main pad-both'>
                 <div className='left-intro'>
