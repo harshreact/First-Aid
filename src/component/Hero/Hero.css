@@ -1,0 +1,27 @@
+.hero{
+    background-color: var(--black);
+}
+.hero-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 110px;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.hero-content h1{
+    color: var(--white);
+    text-align: center;
+}
+.hero-banner{
+    padding-bottom: 100px;
+}
+.hero-banner img{
+    margin-bottom: -400px;
+    padding-bottom: 100px;
+}

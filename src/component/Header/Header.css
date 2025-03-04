@@ -1,0 +1,23 @@
+.header{
+    background-color: var(--black);
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-panel{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 18.5px 0;
+}
+.nav-links{
+    display: flex;
+    gap: 60px;
+}
+.nav-links a{
+    color: var(--white);
+}
+.btn a{
+    color: var(--white);
+}
