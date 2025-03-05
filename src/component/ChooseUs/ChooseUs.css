@@ -1,0 +1,36 @@
+.choose-us-main{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 100px
+}
+.choose-us-right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+.pointers{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.point{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 30px;
+    position: relative;
+}
+div.point::before{
+    content: "";
+    position: absolute;
+    background: url(/src/assets/ChooseUs/vector.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 22px;
+    height: 24px;
+    top: 10px;
+    left: 0;
+}

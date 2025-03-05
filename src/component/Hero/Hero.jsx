@@ -4,7 +4,7 @@ import hero from '../../assets/Hero/hero-banner.png'
 
 const Hero = () => {
   return (
-    <section className='hero'>
+    <section className='hero black-bg'>
         <div className='container'>
             <div className='hero-main'>
                 <div className='hero-content'>

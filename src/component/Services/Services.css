@@ -1,0 +1,30 @@
+.services-main{
+    display: flex;
+    gap: 80px;
+}
+.services-left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.services-right{
+    position: relative;
+}
+div.services-right::after{
+    content: '';
+    background: url(../../assets/Services/services-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 409px;
+    height: 463px;
+}
+.services-right img{
+    padding-left: 65px;
+    padding-bottom: 75px;
+}

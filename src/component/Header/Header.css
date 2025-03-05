@@ -1,6 +1,3 @@
-.header{
-    background-color: var(--black);
-}
 .header-main{
     display: flex;
     justify-content: space-between;
